@@ -1,0 +1,32 @@
+#ifndef PARTICLES_VS_cg
+#define PARTICLES_VS_cg
+
+#include "APIAbstraction.gpu"
+#include "StandardConstants.fx"
+#include "ParticleStructsandConstants.fx"
+
+StructuredBuffer<Particle> OutputVSView : register(t70);
+
+PARTICLES_GS_IN PARTICLES_VS(Particle p)
+{
+	PARTICLES_GS_IN vOut;
+	
+	float alpha = p.m_currtime / p.m_lifetime;
+	
+	vOut.iPosition = p.m_position;
+	vOut.iAlpha = alpha;
+	vOut.iColor = make_float4
+	(
+		LERP(p.m_iniColor.r, p.m_endColor.r, alpha),
+		LERP(p.m_iniColor.g, p.m_endColor.g, alpha),
+		LERP(p.m_iniColor.b, p.m_endColor.b, alpha),
+		LERP(p.m_iniColor.a, p.m_endColor.a, alpha)
+	);
+	vOut.iSizeRotate = make_float2(LERP(p.m_sizeini, p.m_sizeend, alpha) , LERP(p.m_rotini, p.m_rotend, alpha) );
+	
+	return vOut;
+}
+
+VS_wrapper_PARTICLES(PARTICLES_VS)
+
+#endif

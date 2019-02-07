@@ -1,0 +1,79 @@
+#ifndef PARTICLES_EMIT_CS_cg
+#define PARTICLES_EMIT_CS_cg
+
+#include "APIAbstraction.gpu"
+#include "StandardConstants.fx"
+#include "ParticleStructsandConstants.fx"
+
+AppendStructuredBuffer<Particle> EmittedParticles : register(u1);
+
+[numthreads(1, 1, 1)]
+void main( uint3 Gid : SV_GroupID, uint3 DTid : SV_DispatchThreadID, uint3 GTid : SV_GroupThreadID, uint GI : SV_GroupIndex )
+{
+	Particle p;
+	
+	float randa = gEmitRandFloats.x;
+	float randb = gEmitRandFloats.y;
+	float randc = gEmitRandFloats.z;
+	float randd = gEmitRandFloats.w;
+	
+	p.m_position  = make_float3
+	(
+		gEmitPosition.x + gEmitPosVar.x * (randa - 0.5) / 2,
+		gEmitPosition.y + gEmitPosVar.y * (randb - 0.5) / 2,
+		gEmitPosition.z + gEmitPosVar.z * (randc - 0.5) / 2
+	);
+	
+	randa = rerand(randa);
+	randb = rerand(randb);
+	randc = rerand(randc);
+	randd = rerand(randd);
+	
+	p.m_velocity = make_float3(
+		gEmitVelocity.x + gEmitVelVar.x * (randa - 0.5) / 2,
+		gEmitVelocity.y + gEmitVelVar.y * (randb - 0.5) / 2,
+		gEmitVelocity.z + gEmitVelVar.z * (randc - 0.5) / 2
+	) * (gEmitVelocity.w + gEmitVelVar.w * (randd - 0.5) / 2);
+	
+	randa = rerand(randa);
+	randb = rerand(randb);
+	randc = rerand(randc);
+	randd = rerand(randd);
+	
+	p.m_iniColor = make_float4(
+		gEmitColorInitial.r + gEmitColorInitialVar.r * (randa - 0.5) / 2,
+		gEmitColorInitial.g + gEmitColorInitialVar.g * (randb - 0.5) / 2,
+		gEmitColorInitial.b + gEmitColorInitialVar.b * (randc - 0.5) / 2,
+		gEmitColorInitial.a + gEmitColorInitialVar.a * (randd - 0.5) / 2
+	);
+	
+	randa = rerand(randa);
+	randb = rerand(randb);
+	randc = rerand(randc);
+	randd = rerand(randd);
+	
+	p.m_endColor = make_float4(
+		gEmitColorFinal.r + gEmitColorFinalVar.r * (randa - 0.5) / 2,
+		gEmitColorFinal.g + gEmitColorFinalVar.g * (randb - 0.5) / 2,
+		gEmitColorFinal.b + gEmitColorFinalVar.b * (randc - 0.5) / 2,
+		gEmitColorFinal.a + gEmitColorFinalVar.a * (randd - 0.5) / 2
+	);
+	
+	randa = rerand(randa);
+	randb = rerand(randb);
+	randc = rerand(randc);
+	randd = rerand(randd);
+	
+  p.m_sizeini = gEmitSizes.x + gEmitSizes.y * (randa - 0.5) / 2;
+	p.m_sizeend = gEmitSizes.z + gEmitSizes.w * (randb - 0.5) / 2;
+	p.m_rotini = gEmitRotates.x + gEmitRotates.y * (randc - 0.5) / 2;
+	p.m_rotend = gEmitRotates.z + gEmitRotates.w * (randd - 0.5) / 2;
+	
+	p.m_currtime = 0;
+	p.m_lifetime = gEmitPosition.w +  gEmitPosVar.w * (randd - 0.5) / 2; //becoz we stored time-related stuff there
+	
+	if(gEmitAccel.w == 0)
+		EmittedParticles.Append(p);
+}
+
+#endif

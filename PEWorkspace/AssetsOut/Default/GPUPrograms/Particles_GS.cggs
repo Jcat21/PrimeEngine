@@ -1,0 +1,69 @@
+#ifndef PARTICLES_GS_cg
+#define PARTICLES_GS_cg
+
+#include "APIAbstraction.gpu"
+#include "StandardConstants.fx"
+#include "ParticleStructsandConstants.fx"
+
+#define PI 3.14159265
+
+[maxvertexcount(4)]
+void main(point PARTICLES_GS_IN gInData[1], inout TriangleStream<PARTICLES_PS_IN> pInStream)
+{
+	PARTICLES_PS_IN pIn[4];
+	PARTICLES_GS_IN gIn = gInData[0];
+
+	float3 pos = gIn.iPosition;
+	float size = gIn.iSizeRotate.x;
+	float rotate = gIn.iSizeRotate.y;
+	
+	//lookat
+	float3 zaxis = normalize(xyzgEyePosW_wDoMotionBlur - pos);
+	float3 xaxis = normalize (cross(float3(0,1,0), zaxis));
+	float3 yaxis = cross(zaxis, xaxis);
+	
+	//create quad
+	/*pIn[0].iPosition = make_float4((pos - size * xaxis), 1);
+	pIn[1].iPosition = make_float4((pos + size * yaxis), 1);
+	pIn[2].iPosition = make_float4((pos - size * yaxis), 1);
+	pIn[3].iPosition = make_float4((pos + size * xaxis), 1);*/
+	
+	pIn[0].iPosition = make_float4((pos - size * xaxis * cos(rotate) - size * yaxis * sin(rotate)), 1);
+	rotate += PI/2;
+	pIn[1].iPosition = make_float4((pos - size * xaxis * cos(rotate) - size * yaxis * sin(rotate)), 1);
+	rotate += PI/2;
+	pIn[2].iPosition = make_float4((pos - size * xaxis * cos(rotate) - size * yaxis * sin(rotate)), 1);
+	rotate += PI/2;
+	pIn[3].iPosition = make_float4((pos - size * xaxis * cos(rotate) - size * yaxis * sin(rotate)), 1);
+	
+	/*pIn[0].iPosition = make_float4((pos - size/2 * xaxis - size/2 * yaxis), 1);
+	pIn[1].iPosition = make_float4((pos + size/2 * xaxis - size/2 * yaxis), 1);
+	pIn[2].iPosition = make_float4((pos - size/2 * xaxis + size/2 * yaxis), 1);
+	pIn[3].iPosition = make_float4((pos + size/2 * xaxis + size/2 * yaxis), 1);*/
+	
+	//project to world space
+	pIn[0].iPosition = mul(pIn[0].iPosition, gViewProj);
+	pIn[1].iPosition = mul(pIn[1].iPosition, gViewProj);
+	pIn[2].iPosition = mul(pIn[2].iPosition, gViewProj);
+	pIn[3].iPosition = mul(pIn[3].iPosition, gViewProj);
+	
+	//set texture coords
+	pIn[2].iTexCoord = make_float2(0,0);
+	pIn[1].iTexCoord = make_float2(1,0);
+	pIn[3].iTexCoord = make_float2(0,1);
+	pIn[0].iTexCoord = make_float2(1,1);
+	
+	//set color from previous shader
+	pIn[0].iColor = gIn.iColor;
+	pIn[1].iColor = gIn.iColor;
+	pIn[2].iColor = gIn.iColor;
+	pIn[3].iColor = gIn.iColor;
+	
+	//output to particle shader
+	pInStream.Append(pIn[2]);
+	pInStream.Append(pIn[1]);
+	pInStream.Append(pIn[3]);
+	pInStream.Append(pIn[0]);
+}
+
+#endif

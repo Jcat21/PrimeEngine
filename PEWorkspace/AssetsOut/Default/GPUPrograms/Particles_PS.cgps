@@ -1,0 +1,32 @@
+#ifndef PARTICLES_PS_cg
+#define PARTICLES_PS_cg
+
+#include "APIAbstraction.gpu"
+#include "StandardConstants.fx"
+#include "StandardTextureResources.fx"
+#include "samplerhelper.fx"
+#include "ParticleStructsandConstants.fx"
+
+float4 PARTICLES_PS(PARTICLES_PS_IN pIn)
+{
+	//half the particle is the texture, the other half is a specified color
+	float4 tex = sample2D(gDiffuseMapSampler, pIn.iTexCoord, gDiffuseMap);
+	float4 color = pIn.iColor;
+	
+	float4 combinedColor = tex;
+	
+	//transparency!
+	combinedColor.a = (combinedColor.r + combinedColor.g + combinedColor.b) * 0.33333333333;
+	clip(combinedColor.a - 0.2);
+	combinedColor.a = 0.0;
+	
+	//combine colors but keep alpha
+	combinedColor *= color;
+	combinedColor.a = color.a;
+	
+	return combinedColor;
+}
+
+PS_wrapper_PARTICLES(PARTICLES_PS)
+
+#endif

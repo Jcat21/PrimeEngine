@@ -1,0 +1,214 @@
+LevelLoader.CreateGameObject("PEObject58_invisiwall",0.947723, 0.0, -0.319095, 0.0, -0.0, 4.951509, -0.0, 0.0, 2.136653, 0.0, 6.345922, 0.0, -1746.50982, 348.761177, 1660.561842, 1.0, 'racetrack.x_PEObject58_invis.lua', 'Racetrack',0x5fbbf430, 0x348811e8, 0xb6682c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject81_invisiwall",6.492616, 0.0, 2.523943, 0.0, 0.0, 4.673134, -0.0, 0.0, -0.362326, -0.0, 0.932051, 0.0, -2406.775318, 352.791367, 7274.811777, 1.0, 'racetrack.x_PEObject81_invis.lua', 'Racetrack',0x61bdb6a1, 0x349311e8, 0x97712c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject70_invisiwall",0.571008, 0.0, 0.820945, 0.0, 0.0, 4.418003, -0.0, 0.0, -5.5492, -0.0, 3.859743, 0.0, 1792.430044, 355.185331, 6110.729753, 1.0, 'racetrack.x_PEObject70_invis.lua', 'Racetrack',0xdf522040, 0x348b11e8, 0xa4302c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject88_invisiwall",0.989349, 0.0, 0.145563, 0.0, 0.0, 4.601946, -0.0, 0.0, -0.888362, -0.0, 6.037953, 0.0, 3467.45488, 351.406446, 5584.179995, 1.0, 'racetrack.x_PEObject88_invis.lua', 'Racetrack',0xf2585700, 0x349411e8, 0xb6212c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject28_invisiwall",0.998302, 0.0, 0.058254, 0.0, 0.0, 4.106906, -0.0, 0.0, -0.525346, -0.0, 9.00293, 0.0, -2738.213378, 331.414229, -2964.837196, 1.0, 'racetrack.x_PEObject28_invis.lua', 'Racetrack',0x4b3c3be1, 0x33c611e8, 0x8d002c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject102_checkpoint",0.013907, 0.0, -0.823991, 0.0, -0.0, 1.0, -0.0, 0.0, 0.999858, 0.0, 0.016875, 0.0, 24.929047, 133.0, 6917.480996, 1.0, 'racetrack.x_PEObject102_chec.lua', 'Racetrack',0x9411fc00, 0x429f11e8, 0x86552c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject25_invisiwall",0.746094, 0.0, 0.66584, 0.0, 0.0, 3.946502, -0.0, 0.0, -8.512335, -0.0, 9.538335, 0.0, -1391.477693, 317.760476, -5472.037231, 1.0, 'racetrack.x_PEObject25_invis.lua', 'Racetrack',0x3e2c138f, 0x33c511e8, 0x88ff2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject60_invisiwall",5.676559, 0.0, 6.236056, 0.0, 0.0, 4.738297, -0.0, 0.0, -0.739502, -0.0, 0.673154, 0.0, -747.277085, 362.974484, 3031.123545, 1.0, 'racetrack.x_PEObject60_invis.lua', 'Racetrack',0xc3874961, 0x348811e8, 0x9fc62c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject27_invisiwall",0.957186, 0.0, 0.289473, 0.0, 0.0, 4.159794, -0.0, 0.0, -2.413769, -0.0, 7.981478, 0.0, -2605.268214, 341.568431, -3770.15368, 1.0, 'racetrack.x_PEObject27_invis.lua', 'Racetrack',0x29147d70, 0x33c611e8, 0xb76d2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject47_invisiwall",4.588555, 0.0, 3.69697, 0.0, 0.0, 4.936356, -0.0, 0.0, -0.627395, -0.0, 0.778701, 0.0, 736.443575, 371.410406, 2255.434443, 1.0, 'racetrack.x_PEObject47_invis.lua', 'Racetrack',0x4a825d1e, 0x344711e8, 0x837f2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject21_invisiwall",4.484447, 0.0, 1.037811, 0.0, 0.0, 4.257615, -0.0, 0.0, -0.225466, -0.0, 0.974251, 0.0, 808.695454, 325.667873, -6194.560942, 1.0, 'racetrack.x_PEObject21_invis.lua', 'Racetrack',0xb56d5cd1, 0x33c411e8, 0x81422c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject22_invisiwall",7.437711, 0.0, 0.25978, 0.0, 0.0, 4.059295, -0.0, 0.0, -0.034906, -0.0, 0.999391, 0.0, 287.135652, 331.79186, -6256.138955, 1.0, 'racetrack.x_PEObject22_invis.lua', 'Racetrack',0xd678609e, 0x33c411e8, 0xa04c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject44_invisiwall",4.074129, 0.0, -3.093841, 0.0, -0.0, 5.321579, -0.0, 0.0, 0.604774, 0.0, 0.796397, 0.0, 2072.965275, 350.030392, 2313.997325, 1.0, 'racetrack.x_PEObject44_invis.lua', 'Racetrack',0xa6a582e1, 0x344611e8, 0xacbc2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject101_checkpoint",0.867732, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 3073.333134, 133.0, 1022.227, 1.0, 'racetrack.x_PEObject101_chec.lua', 'Racetrack',0x835bb99e, 0x429f11e8, 0x96332c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject43_invisiwall",0.876101, 0.0, 0.482129, 0.0, 0.0, 4.934521, -0.0, 0.0, -2.299227, -0.0, 4.178043, 0.0, 2378.301518, 368.783524, 1964.190433, 1.0, 'racetrack.x_PEObject43_invis.lua', 'Racetrack',0x61ea9a00, 0x344611e8, 0x9dd72c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject127_racetrack1",-9.464085, 0.0, 0.0, 0.0, 0.0, 10.0, -0.0, 0.0, -0.0, -0.0, -10.809952, 0.0, -0.00016, -244.500885, -0.00027, 1.0, 'racetrack.x_PEObject127_race.lua', 'Racetrack',0x9e669b40, 0x4f2c11e8, 0x93812c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject73_invisiwall",6.734786, 0.0, 2.11971, 0.0, 0.0, 4.65407, -0.0, 0.0, -0.300221, -0.0, 0.95387, 0.0, -1633.548027, 356.992232, 6277.554176, 1.0, 'racetrack.x_PEObject73_invis.lua', 'Racetrack',0xbfc19200, 0x348c11e8, 0xa9532c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject51_skybox",20789.967588, 0.0, -0.0, 0.0, 0.0, 20789.967588, -0.0, 0.0, -0.0, -0.0, 20789.967588, 0.0, 0.0, 0.0, -0.0, 1.0, 'racetrack.x_PEObject51_skybo.lua', 'Racetrack',0x1617388f, 0x348711e8, 0xb0c92c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject8_invisiwall",10.581399, 0.0, 12.297321, 0.0, 0.0, 4.831703, -0.0, 0.0, -0.758011, -0.0, 0.652241, 0.0, 2995.48316, 377.673665, -6529.758561, 1.0, 'racetrack.x_PEObject8_invisi.lua', 'Racetrack',0xfb48630f, 0x33c111e8, 0xb1e42c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject91_pPlane1",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 0.0, -0.0, 1.0, 'racetrack.x_PEObject91_pPlan.lua', 'Racetrack',0x87cf82b0, 0x34a211e8, 0xb3b72c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject59_invisiwall",0.789713, 0.0, -0.613477, 0.0, -0.0, 4.771239, -0.0, 0.0, 6.034978, 0.0, 7.768675, 0.0, -1344.520086, 363.722447, 2348.050808, 1.0, 'racetrack.x_PEObject59_invis.lua', 'Racetrack',0x8daa3961, 0x348811e8, 0x88c32c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject89_polySurface1",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 3289.106948, -0.0, 1.0, 'racetrack.x_PEObject89_polyS.lua', 'Racetrack',0x2cd42600, 0x34a111e8, 0x94ea2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject13_invisiwall",7.435034, 0.0, -0.714104, 0.0, -0.0, 4.827727, -0.0, 0.0, 0.095606, 0.0, 0.995419, 0.0, 2524.78215, 337.653858, -3982.23017, 1.0, 'racetrack.x_PEObject13_invis.lua', 'Racetrack',0x1c4da50f, 0x33c311e8, 0xa06c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject54_invisiwall",5.955865, 0.0, -0.0, 0.0, 0.0, 4.769475, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -683.859511, 361.436949, -43.262946, 1.0, 'racetrack.x_PEObject54_invis.lua', 'Racetrack',0x9bd29a61, 0x348711e8, 0xbe992c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject116_powerup",0.462688, 0.0, 0.886521, 0.0, 0.0, 1.0, -0.0, 0.0, -0.886521, -0.0, 0.462688, 0.0, -175.655562, 89.0, -4449.990707, 1.0, 'racetrack.x_PEObject116_powe.lua', 'Racetrack',0x65b4b200, 0x482911e8, 0xb3a42c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject29_invisiwall",1.0, 0.0, -0.00069, 0.0, -0.0, 4.203803, -0.0, 0.0, 0.007752, 0.0, 11.233742, 0.0, -2751.693846, 325.507705, -1999.217137, 1.0, 'racetrack.x_PEObject29_invis.lua', 'Racetrack',0x67019be1, 0x33c611e8, 0x9c352c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject76_invisiwall",0.978388, 0.0, -0.206777, 0.0, -0.0, 4.756534, -0.0, 0.0, 1.51628, 0.0, 7.174445, 0.0, -2701.133697, 336.442245, 5043.478827, 1.0, 'racetrack.x_PEObject76_invis.lua', 'Racetrack',0x9349076e, 0x348d11e8, 0xac6d2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject36_invisiwall",0.96681, 0.0, 0.255495, 0.0, 0.0, 4.064002, -0.0, 0.0, -1.542405, -0.0, 5.836557, 0.0, -1351.326726, 330.930998, -3721.667208, 1.0, 'racetrack.x_PEObject36_invis.lua', 'Racetrack',0x74c2ab61, 0x33cc11e8, 0x8dcd2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject109_checkpoint",0.725, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -3249.8625, 133.0, 1600.0, 1.0, 'racetrack.x_PEObject109_chec.lua', 'Racetrack',0xf13be68f, 0x42a211e8, 0xa3d22c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject35_invisiwall",0.814914, 0.0, 0.579582, 0.0, 0.0, 4.434084, -0.0, 0.0, -4.075562, -0.0, 5.730387, 0.0, -1083.851085, 352.149989, -4285.28333, 1.0, 'racetrack.x_PEObject35_invis.lua', 'Racetrack',0xa1416cf0, 0x33ca11e8, 0x8c682c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject57_invisiwall",0.996317, 0.0, 0.085741, 0.0, 0.0, 4.90858, -0.0, 0.0, -0.531852, -0.0, 6.180156, 0.0, -1825.622469, 357.126036, 1050.196665, 1.0, 'racetrack.x_PEObject57_invis.lua', 'Racetrack',0x2955b700, 0x348811e8, 0xae0b2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject50_invisiwall",0.842408, 0.0, -0.53884, 0.0, -0.0, 4.348499, -0.0, 0.0, 4.306285, 0.0, 6.732337, 0.0, 3162.308832, 352.728283, -2194.145979, 1.0, 'racetrack.x_PEObject50_invis.lua', 'Racetrack',0xea7998c0, 0x344711e8, 0x88082c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject107_checkpoint",0.869617, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 3068.614192, 133.0, 1000.908, 1.0, 'racetrack.x_PEObject107_chec.lua', 'Racetrack',0x9f79a470, 0x42a011e8, 0xb0e02c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject20_invisiwall",4.745562, 0.0, 3.06225, 0.0, 0.0, 4.251104, -0.0, 0.0, -0.542202, -0.0, 0.840248, 0.0, 1195.545083, 337.903753, -6023.13598, 1.0, 'racetrack.x_PEObject20_invis.lua', 'Racetrack',0x810c6580, 0x33c411e8, 0x99212c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject46_invisiwall",4.803137, 0.0, 1.290521, 0.0, 0.0, 5.046317, -0.0, 0.0, -0.25948, -0.0, 0.965748, 0.0, 1184.259854, 364.980625, 2495.980995, 1.0, 'racetrack.x_PEObject46_invis.lua', 'Racetrack',0x16c2d5ee, 0x344711e8, 0xa51f2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject52_invisiwall",5.71413, 0.0, 5.989571, 0.0, 0.0, 4.717857, -0.0, 0.0, -0.723548, -0.0, 0.690274, 0.0, 243.287421, 352.924544, 433.148757, 1.0, 'racetrack.x_PEObject52_invis.lua', 'Racetrack',0x3d2eb2a1, 0x348711e8, 0x86402c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject118_powerup",0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.0, 0.0, -1.0, -0.0, 0.0, 0.0, -1075.0, 89.0, 6793.532154, 1.0, 'racetrack.x_PEObject118_powe.lua', 'Racetrack',0xe75d4ab0, 0x482911e8, 0xbc292c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject11_invisiwall",0.870164, 0.0, 0.492763, 0.0, 0.0, 4.887698, -0.0, 0.0, -4.323755, -0.0, 7.635261, 0.0, 3472.04404, 339.147017, -4509.719074, 1.0, 'racetrack.x_PEObject11_invis.lua', 'Racetrack',0xb78f8b70, 0x33c211e8, 0xa1302c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject115_powerup",0.064999, 0.0, -0.997885, 0.0, -0.0, 1.0, -0.0, 0.0, 0.997885, 0.0, 0.064999, 0.0, 594.206909, 89.0, 3363.673427, 1.0, 'racetrack.x_PEObject115_powe.lua', 'Racetrack',0xd97f8e9e, 0x482711e8, 0x84da2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject63_invisiwall",6.534288, 0.0, 0.604328, 0.0, 0.0, 4.488673, -0.0, 0.0, -0.092093, -0.0, 0.99575, 0.0, 858.388822, 352.648056, 2920.750873, 1.0, 'racetrack.x_PEObject63_invis.lua', 'Racetrack',0x96ec744f, 0x348a11e8, 0x95862c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject110_powerup",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -3278.904669, 89.0, -2150.0, 1.0, 'racetrack.x_PEObject110_powe.lua', 'Racetrack',0xf0e1d811, 0x482611e8, 0x872d2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject69_invisiwall",0.860648, 0.0, 0.5092, 0.0, 0.0, 4.52425, -0.0, 0.0, -3.252593, -0.0, 5.497517, 0.0, 2221.940957, 348.108705, 5661.357021, 1.0, 'racetrack.x_PEObject69_invis.lua', 'Racetrack',0xbd712ed1, 0x348b11e8, 0xadf82c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject24_invisiwall",4.566595, 0.0, -2.543468, 0.0, -0.0, 4.035932, -0.0, 0.0, 0.486589, 0.0, 0.873631, 0.0, -789.560454, 332.592999, -6033.035552, 1.0, 'racetrack.x_PEObject24_invis.lua', 'Racetrack',0x177ef40f, 0x33c511e8, 0xa1da2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject34_invisiwall",6.657002, 0.0, -3.904905, 0.0, -0.0, 4.009864, -0.0, 0.0, 0.505963, 0.0, 0.862555, 0.0, -566.987392, 326.382103, -4749.033334, 1.0, 'racetrack.x_PEObject34_invis.lua', 'Racetrack',0x6de05970, 0x33ca11e8, 0xaa8c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject53_invisiwall",0.458548, 0.0, -0.88867, 0.0, -0.0, 4.525679, -0.0, 0.0, 3.780335, 0.0, 1.950627, 0.0, -216.449615, 369.460296, 50.259671, 1.0, 'racetrack.x_PEObject53_invis.lua', 'Racetrack',0x6e89e400, 0x348711e8, 0x905b2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject98_checkpoint",0.005189, 0.0, 1.137865, 0.0, 0.0, 1.0, -0.0, 0.0, -0.99999, -0.0, 0.004561, 0.0, -1627.005595, 133.0, -6834.927932, 1.0, 'racetrack.x_PEObject98_check.lua', 'Racetrack',0xafc0951e, 0x429e11e8, 0xa1fb2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject17_invisiwall",0.553245, 0.0, 0.833018, 0.0, 0.0, 4.69797, -0.0, 0.0, -8.57318, -0.0, 5.693839, 0.0, -2807.997682, 354.065353, -7144.096391, 1.0, 'racetrack.x_PEObject17_invis.lua', 'Racetrack',0xbc2d3a00, 0x33c311e8, 0x8f5a2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject37_invisiwall",0.994718, 0.0, -0.102645, 0.0, -0.0, 4.383555, -0.0, 0.0, 0.678426, 0.0, 6.574535, 0.0, -1394.343847, 339.195516, -3128.472638, 1.0, 'racetrack.x_PEObject37_invis.lua', 'Racetrack',0xa55f20a1, 0x33cc11e8, 0xb1f62c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject38_invisiwall",0.898851, 0.0, -0.438254, 0.0, -0.0, 4.200662, -0.0, 0.0, 3.512663, 0.0, 7.204416, 0.0, -1184.826302, 340.262022, -2465.345561, 1.0, 'racetrack.x_PEObject38_invis.lua', 'Racetrack',0xda797ce1, 0x33cc11e8, 0xbf482c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject67_invisiwall",0.997327, 0.0, -0.073067, 0.0, -0.0, 4.495235, -0.0, 0.0, 0.436799, 0.0, 5.962109, 0.0, 2487.874363, 357.364171, 4507.288287, 1.0, 'racetrack.x_PEObject67_invis.lua', 'Racetrack',0x5e34144f, 0x348b11e8, 0x90272c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject111_powerup",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -2934.167418, 89.0, -2150.0, 1.0, 'racetrack.x_PEObject111_powe.lua', 'Racetrack',0x20589200, 0x482711e8, 0x8a6d2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject106_checkpoint",0.032866, 0.0, -0.823218, 0.0, -0.0, 1.0, -0.0, 0.0, 0.999204, 0.0, 0.039892, 0.0, 636.566567, 133.0, 3382.055609, 1.0, 'racetrack.x_PEObject106_chec.lua', 'Racetrack',0x83fe1eb0, 0x42a011e8, 0x9c8e2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject75_invisiwall",0.864468, 0.0, -0.502688, 0.0, -0.0, 4.528009, -0.0, 0.0, 2.640804, 0.0, 4.541369, 0.0, -2497.602853, 353.439572, 5610.431895, 1.0, 'racetrack.x_PEObject75_invis.lua', 'Racetrack',0x6bbfb8c0, 0x348d11e8, 0x8b152c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject97_checkpoint",0.701521, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -3258.55776, 133.0, 1608.209554, 1.0, 'racetrack.x_PEObject97_check.lua', 'Racetrack',0x8a15a361, 0x429e11e8, 0x9ff52c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject86_invisiwall",3.70411, 0.0, -4.719379, 0.0, -0.0, 4.659842, -0.0, 0.0, 0.78664, 0.0, 0.617412, 0.0, 3028.385304, 349.955036, 6643.875856, 1.0, 'racetrack.x_PEObject86_invis.lua', 'Racetrack',0x770f3691, 0x349411e8, 0x9a562c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject112_powerup",0.377771, 0.0, -0.925899, 0.0, -0.0, 1.0, -0.0, 0.0, 0.925899, 0.0, 0.377771, 0.0, 995.095852, 89.0, -5543.544438, 1.0, 'racetrack.x_PEObject112_powe.lua', 'Racetrack',0x590f00c0, 0x482711e8, 0xb2992c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject113_powerup",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -2446.920411, 89.0, -1476.0, 1.0, 'racetrack.x_PEObject113_powe.lua', 'Racetrack',0xa0200e9e, 0x482711e8, 0x96422c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject66_invisiwall",0.928145, 0.0, -0.372219, 0.0, -0.0, 4.551072, -0.0, 0.0, 2.582568, 0.0, 6.439758, 0.0, 2340.825492, 357.459585, 3901.309742, 1.0, 'racetrack.x_PEObject66_invis.lua', 'Racetrack',0x31d19f40, 0x348b11e8, 0xa8222c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject49_invisiwall",0.97776, 0.0, -0.209725, 0.0, -0.0, 4.483553, -0.0, 0.0, 1.483798, 0.0, 6.917617, 0.0, 3445.566478, 345.47268, -1528.268148, 1.0, 'racetrack.x_PEObject49_invis.lua', 'Racetrack',0xc274b16e, 0x344711e8, 0x86982c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject87_invisiwall",0.925898, 0.0, 0.377774, 0.0, 0.0, 4.465277, -0.0, 0.0, -2.250944, -0.0, 5.516913, 0.0, 3317.449103, 360.653006, 6141.863102, 1.0, 'racetrack.x_PEObject87_invis.lua', 'Racetrack',0xc9e9d86e, 0x349411e8, 0x86622c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject99_checkpoint",0.564086, 0.0, 0.982393, 0.0, 0.0, 1.0, -0.0, 0.0, -0.867208, -0.0, 0.497947, 0.0, -645.358043, 133.0, -5414.308197, 1.0, 'racetrack.x_PEObject99_check.lua', 'Racetrack',0x01ebbd21, 0x429f11e8, 0x9c962c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject105_checkpoint",0.541345, 0.0, 0.943129, 0.0, 0.0, 1.0, -0.0, 0.0, -0.867285, -0.0, 0.497811, 0.0, -631.836672, 133.0, -5407.209565, 1.0, 'racetrack.x_PEObject105_chec.lua', 'Racetrack',0x43952acf, 0x42a011e8, 0xb5aa2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject77_invisiwall",1.0, 0.0, -0.0, 0.0, 0.0, 4.699249, -0.0, 0.0, -0.0, -0.0, 22.432205, 0.0, -3638.168592, 358.092302, 4318.42394, 1.0, 'racetrack.x_PEObject77_invis.lua', 'Racetrack',0x5b64ea91, 0x349211e8, 0x91cf2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject7_invisiwall",6.928709, 0.0, 5.197728, 0.0, 0.0, 4.778126, -0.0, 0.0, -0.600088, -0.0, 0.799934, 0.0, 2443.387668, 377.608453, -7112.08488, 1.0, 'racetrack.x_PEObject7_invisi.lua', 'Racetrack',0xc4f5fc00, 0x33c111e8, 0xb4862c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject64_invisiwall",5.786077, 0.0, 2.140023, 0.0, 0.0, 4.548184, -0.0, 0.0, -0.346891, -0.0, 0.937905, 0.0, 1460.260063, 349.114961, 3053.435427, 1.0, 'racetrack.x_PEObject64_invis.lua', 'Racetrack',0xcb10d7cf, 0x348a11e8, 0x9ef42c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject14_invisiwall",5.157909, 0.0, 2.543343, 0.0, 0.0, 4.502479, -0.0, 0.0, -0.442253, -0.0, 0.89689, 0.0, 2016.521619, 342.585724, -4086.287824, 1.0, 'racetrack.x_PEObject14_invis.lua', 'Racetrack',0x3a0d7580, 0x33c311e8, 0x85062c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject45_invisiwall",4.885525, 0.0, -0.958667, 0.0, -0.0, 5.336962, -0.0, 0.0, 0.192554, 0.0, 0.981286, 0.0, 1645.17448, 347.90311, 2512.316725, 1.0, 'racetrack.x_PEObject45_invis.lua', 'Racetrack',0xcd910af0, 0x344611e8, 0xae832c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject31_invisiwall",7.501988, 0.0, 3.48396, 0.0, 0.0, 4.211439, -0.0, 0.0, -0.4212, -0.0, 0.906968, 0.0, 750.575615, 333.477467, -4775.032853, 1.0, 'racetrack.x_PEObject31_invis.lua', 'Racetrack',0x28328511, 0x33ca11e8, 0x8e572c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject68_invisiwall",0.978496, 0.0, 0.206263, 0.0, 0.0, 4.5486, -0.0, 0.0, -1.30482, -0.0, 6.189955, 0.0, 2443.075376, 352.526388, 5095.442964, 1.0, 'racetrack.x_PEObject68_invis.lua', 'Racetrack',0x922f9311, 0x348b11e8, 0x975b2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject9_invisiwall",0.907006, 0.0, -0.421118, 0.0, -0.0, 4.279676, -0.0, 0.0, 3.764919, 0.0, 8.108902, 0.0, 3558.836245, 379.940568, -5707.725427, 1.0, 'racetrack.x_PEObject9_invisi.lua', 'Racetrack',0x430938f0, 0x33c211e8, 0xa62c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject71_invisiwall",6.4087, 0.0, -1.171236, 0.0, -0.0, 4.550344, -0.0, 0.0, 0.179779, 0.0, 0.983707, 0.0, 1211.249313, 345.543541, 6350.498431, 1.0, 'racetrack.x_PEObject71_invis.lua', 'Racetrack',0x0ebea100, 0x348c11e8, 0x883e2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject12_invisiwall",6.238298, 0.0, -4.066226, 0.0, -0.0, 4.618493, -0.0, 0.0, 0.266269, 0.0, 0.408503, 0.0, 3040.6693, 352.098172, -4138.974293, 1.0, 'racetrack.x_PEObject12_invis.lua', 'Racetrack',0xdf6af1c0, 0x33c211e8, 0x91732c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject100_checkpoint",0.047797, 0.0, -0.788831, 0.0, -0.0, 1.0, -0.0, 0.0, 0.998169, 0.0, 0.060482, 0.0, 630.239101, 133.0, 3381.654415, 1.0, 'racetrack.x_PEObject100_chec.lua', 'Racetrack',0x39de188f, 0x429f11e8, 0xb5fe2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject32_invisiwall",7.23612, 0.0, -0.0, 0.0, 0.0, 4.310512, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 101.671959, 315.521851, -4936.733439, 1.0, 'racetrack.x_PEObject32_invis.lua', 'Racetrack',0x52a9a4de, 0x33ca11e8, 0xabc02c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject41_invisiwall",0.987407, 0.0, -0.158197, 0.0, -0.0, 4.855076, -0.0, 0.0, 0.842658, 0.0, 5.25955, 0.0, 2555.530978, 372.581058, 1069.396611, 1.0, 'racetrack.x_PEObject41_invis.lua', 'Racetrack',0x09af2b30, 0x344611e8, 0x8e242c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject103_checkpoint",0.687269, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -3261.063634, 133.0, 1612.382, 1.0, 'racetrack.x_PEObject103_chec.lua', 'Racetrack',0xe6938161, 0x429f11e8, 0xb3362c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject30_invisiwall",8.171072, 0.0, 9.123989, 0.0, 0.0, 4.447198, -0.0, 0.0, -0.744937, -0.0, 0.667135, 0.0, 1407.88415, 332.233055, -4272.997616, 1.0, 'racetrack.x_PEObject30_invis.lua', 'Racetrack',0xfd5aa79e, 0x33c911e8, 0x9afa2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject4_invisiwall",35.146625, 0.0, -0.0, 0.0, 0.0, 4.877079, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, 0.0, 368.0, -7437.389685, 1.0, 'racetrack.x_PEObject4_invisi.lua', 'Racetrack',0xe12f21e1, 0x33c011e8, 0xb7b32c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject56_invisiwall",0.847071, 0.0, 0.531479, 0.0, 0.0, 5.05105, -0.0, 0.0, -3.180906, -0.0, 5.069728, 0.0, -1649.498373, 358.08287, 507.339055, 1.0, 'racetrack.x_PEObject56_invis.lua', 'Racetrack',0xfa2e7c9e, 0x348711e8, 0x88412c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject108_checkpoint",-0.011879, 0.0, 0.819799, 0.0, 0.0, 1.0, -0.0, 0.0, -0.999895, -0.0, -0.014488, 0.0, 25.838939, 133.0, 6913.2261, 1.0, 'racetrack.x_PEObject108_chec.lua', 'Racetrack',0xd30fd1b0, 0x42a011e8, 0xa3862c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject79_invisiwall",0.855231, 0.0, -0.518247, 0.0, -0.0, 4.579211, -0.0, 0.0, 3.380137, 0.0, 5.578027, 0.0, -3326.66676, 359.594859, 6453.012261, 1.0, 'racetrack.x_PEObject79_invis.lua', 'Racetrack',0xbecb8a80, 0x349211e8, 0xb28c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject16_invisiwall",9.791247, 0.0, -1.294975, 0.0, -0.0, 5.069581, -0.0, 0.0, 0.131117, 0.0, 0.991367, 0.0, -2196.166363, 348.516663, -7379.995072, 1.0, 'racetrack.x_PEObject16_invis.lua', 'Racetrack',0x9b705630, 0x33c311e8, 0x8dc02c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject6_invisiwall",6.68214, 0.0, 1.893765, 0.0, 0.0, 4.849752, -0.0, 0.0, -0.272668, -0.0, 0.962108, 0.0, 2022.447764, 369.688154, -7358.055532, 1.0, 'racetrack.x_PEObject6_invisi.lua', 'Racetrack',0x7c18928f, 0x33c111e8, 0xb68c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject19_invisiwall",0.981224, 0.0, 0.192871, 0.0, 0.0, 4.342182, -0.0, 0.0, -2.393194, -0.0, 12.175283, 0.0, -3541.627482, 341.112499, -5977.213716, 1.0, 'racetrack.x_PEObject19_invis.lua', 'Racetrack',0x03eb29ae, 0x33c411e8, 0xac0e2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject23_invisiwall",5.786182, 0.0, -1.155524, 0.0, -0.0, 4.133323, -0.0, 0.0, 0.195837, 0.0, 0.980636, 0.0, -311.365659, 331.088088, -6212.34936, 1.0, 'racetrack.x_PEObject23_invis.lua', 'Racetrack',0xf4097fee, 0x33c411e8, 0x973d2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject40_invisiwall",0.890808, 0.0, -0.45438, 0.0, -0.0, 4.649814, -0.0, 0.0, 2.163984, 0.0, 4.242473, 0.0, 2411.361993, 380.291992, 610.797061, 1.0, 'racetrack.x_PEObject40_invis.lua', 'Racetrack',0xde833a4f, 0x344511e8, 0xbf682c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject84_invisiwall",7.239494, 0.0, -2.329887, 0.0, -0.0, 4.713358, -0.0, 0.0, 0.306356, 0.0, 0.951917, 0.0, 2064.33837, 348.614455, 7285.960742, 1.0, 'racetrack.x_PEObject84_invis.lua', 'Racetrack',0x2ce32d0f, 0x349411e8, 0x823a2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject48_invisiwall",1.0, 0.0, -0.0, 0.0, 0.0, 4.464662, -0.0, 0.0, -0.0, -0.0, 23.818424, 0.0, 3519.283207, 345.587434, -0.032278, 1.0, 'racetrack.x_PEObject48_invis.lua', 'Racetrack',0x83d50be1, 0x344711e8, 0x93192c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject42_invisiwall",0.973596, 0.0, 0.22828, 0.0, 0.0, 4.952909, -0.0, 0.0, -1.057738, -0.0, 4.51117, 0.0, 2540.772003, 367.444538, 1542.112437, 1.0, 'racetrack.x_PEObject42_invis.lua', 'Racetrack',0x3c707c40, 0x344611e8, 0xb0042c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject117_powerup",0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.0, 0.0, -1.0, -0.0, 0.0, 0.0, -1075.0, 89.0, 7192.047472, 1.0, 'racetrack.x_PEObject117_powe.lua', 'Racetrack',0xd70f4000, 0x482911e8, 0xb9182c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject61_invisiwall",5.752619, 0.0, 4.177397, 0.0, 0.0, 4.732021, -0.0, 0.0, -0.58759, -0.0, 0.809159, 0.0, -187.011394, 361.841951, 3545.784446, 1.0, 'racetrack.x_PEObject61_invis.lua', 'Racetrack',0xfeae1be1, 0x348811e8, 0xbaa42c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject82_invisiwall",38.212428, 0.0, -0.0, 0.0, 0.0, 4.712153, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -191.216824, 347.118859, 7397.350554, 1.0, 'racetrack.x_PEObject82_invis.lua', 'Racetrack',0xa2b41d70, 0x349311e8, 0xab242c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject72_invisiwall",22.213793, 0.0, 0.281405, 0.0, 0.0, 4.762781, -0.0, 0.0, -0.012667, -0.0, 0.99992, 0.0, -203.56461, 352.777636, 6390.344713, 1.0, 'racetrack.x_PEObject72_invis.lua', 'Racetrack',0x2cb734b0, 0x348c11e8, 0x88462c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject62_invisiwall",6.887053, 0.0, 1.421405, 0.0, 0.0, 5.196354, -0.0, 0.0, -0.202128, -0.0, 0.979359, 0.0, 434.248192, 336.803697, 3816.648068, 1.0, 'racetrack.x_PEObject62_invis.lua', 'Racetrack',0x40c8b761, 0x348911e8, 0x8c9e2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject65_invisiwall",0.68853, 0.0, -0.725208, 0.0, -0.0, 4.57854, -0.0, 0.0, 4.82398, 0.0, 4.580003, 0.0, 1977.973217, 357.155831, 3372.809548, 1.0, 'racetrack.x_PEObject65_invis.lua', 'Racetrack',0x08878dc0, 0x348b11e8, 0x82842c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject78_invisiwall",0.980592, 0.0, -0.196062, 0.0, -0.0, 4.918713, -0.0, 0.0, 1.527541, 0.0, 7.639903, 0.0, -3566.359629, 345.171367, 5808.717931, 1.0, 'racetrack.x_PEObject78_invis.lua', 'Racetrack',0x8ced6d80, 0x349211e8, 0x86782c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject15_invisiwall",11.47565, 0.0, 11.492432, 0.0, 0.0, 5.078675, -0.0, 0.0, -0.707623, -0.0, 0.70659, 0.0, 1488.57396, 309.765689, -4524.05635, 1.0, 'racetrack.x_PEObject15_invis.lua', 'Racetrack',0x6829cf8f, 0x33c311e8, 0xa3792c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject80_invisiwall",4.599109, 0.0, 4.345886, 0.0, 0.0, 4.563482, -0.0, 0.0, -0.686814, -0.0, 0.726833, 0.0, -2944.095701, 360.623808, 6939.305384, 1.0, 'racetrack.x_PEObject80_invis.lua', 'Racetrack',0x0168755e, 0x349311e8, 0x9e7f2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject74_invisiwall",4.25767, 0.0, 3.608022, 0.0, 0.0, 4.974677, -0.0, 0.0, -0.646504, -0.0, 0.762911, 0.0, -2165.8481, 333.286395, 6001.269981, 1.0, 'racetrack.x_PEObject74_invis.lua', 'Racetrack',0x3871df1e, 0x348d11e8, 0x859e2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject18_invisiwall",0.829824, 0.0, 0.558025, 0.0, 0.0, 4.109289, -0.0, 0.0, -5.836674, -0.0, 8.679554, 0.0, -3308.309591, 339.859834, -6588.967421, 1.0, 'racetrack.x_PEObject18_invis.lua', 'Racetrack',0xdd6abf80, 0x33c311e8, 0xbb412c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject55_invisiwall",5.400389, 0.0, -3.223997, 0.0, -0.0, 4.787139, -0.0, 0.0, 0.512596, 0.0, 0.85863, 0.0, -1231.778112, 363.218407, 110.473232, 1.0, 'racetrack.x_PEObject55_invis.lua', 'Racetrack',0xc5ce6fb0, 0x348711e8, 0xbc6c2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject114_powerup",1.0, 0.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, -0.0, -0.0, 1.0, 0.0, -2238.92535, 89.0, -1476.0, 1.0, 'racetrack.x_PEObject114_powe.lua', 'Racetrack',0xafbfd7f0, 0x482711e8, 0x8f722c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject39_invisiwall",12.407664, 0.0, 15.227648, 0.0, 0.0, 4.755498, -0.0, 0.0, -0.775236, -0.0, 0.631671, 0.0, 1688.613367, 373.4905, -357.595207, 1.0, 'racetrack.x_PEObject39_invis.lua', 'Racetrack',0x9edcfa30, 0x344511e8, 0x987a2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject85_invisiwall",4.460092, 0.0, -3.086843, 0.0, -0.0, 4.832458, -0.0, 0.0, 0.569096, 0.0, 0.822271, 0.0, 2635.900376, 342.544783, 7019.178617, 1.0, 'racetrack.x_PEObject85_invis.lua', 'Racetrack',0x4c55b68f, 0x349411e8, 0x8c172c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject104_checkpoint",0.007659, 0.0, 1.062788, 0.0, 0.0, 1.0, -0.0, 0.0, -0.999974, -0.0, 0.007206, 0.0, -1557.416829, 133.0, -6853.895394, 1.0, 'racetrack.x_PEObject104_chec.lua', 'Racetrack',0x0120d68f, 0x42a011e8, 0x90ff2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject26_invisiwall",0.807367, 0.0, 0.590049, 0.0, 0.0, 4.232992, -0.0, 0.0, -4.365772, -0.0, 5.973711, 0.0, -2307.140835, 339.645944, -4371.557694, 1.0, 'racetrack.x_PEObject26_invis.lua', 'Racetrack',0xe91791cf, 0x33c511e8, 0xb99f2c56, 0xdc2d24a7)
+
+LevelLoader.CreateGameObject("PEObject10_invisiwall",0.999194, 0.0, 0.04013, 0.0, 0.0, 4.112062, -0.0, 0.0, -0.25941, -0.0, 6.459026, 0.0, 3663.051758, 379.732211, -5079.797084, 1.0, 'racetrack.x_PEObject10_invis.lua', 'Racetrack',0x85754fcf, 0x33c211e8, 0xa9c12c56, 0xdc2d24a7)
+
